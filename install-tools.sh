@@ -35,5 +35,3 @@ yum -y --enablerepo=epel install pyOpenSSL
 #yum -y --enablerepo=epel install ansible.rpm
 
 yum -y --enablerepo=epel install https://releases.ansible.com/ansible/rpm/release/epel-7-x86_64/ansible-2.6.5-1.el7.ans.noarch.rpm
-
-git clone https://github.com/openshift/openshift-ansible.git
