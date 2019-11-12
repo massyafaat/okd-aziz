@@ -6,7 +6,7 @@
 yum update -y
 
 # install the following base packages
-yum install -y  wget git nano net-tools docker-1.13.1\
+yum install -y  open-vm-tools wget git nano net-tools docker-1.13.1\
 				bind-utils iptables-services \
 				bridge-utils bash-completion \
 				kexec-tools sos psacct openssl-devel \
