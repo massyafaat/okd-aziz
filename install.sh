@@ -3,6 +3,7 @@
 ssh kub-m1.azizpunya.com mkdir -p /etc/origin/master/
 ssh kub-m2.azizpunya.com mkdir -p /etc/origin/master/
 ssh kub-m3.azizpunya.com mkdir -p /etc/origin/master/
+touch /etc/origin/master/htpasswd
 ssh kub-m1.azizpunya.com touch /etc/origin/master/htpasswd
 ssh kub-m2.azizpunya.com touch /etc/origin/master/htpasswd
 ssh kub-m3.azizpunya.com touch /etc/origin/master/htpasswd
